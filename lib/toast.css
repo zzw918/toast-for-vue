@@ -1,0 +1,35 @@
+.toast {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4rem;
+  height: 4rem;
+  line-height: 4rem;
+  color: white;
+  font-size: 0.38rem;
+  font-weight: bold;
+  background-color: rgba(81,177,176,0.8);
+  text-align: center;
+  z-index: 10000;
+  border-radius: 0.1389rem;
+  animation: ani-toast 0.8s;
+}
+
+.toast-top {
+  top: 25%;
+}
+
+.toast-bottom {
+  top: 75%;
+}
+
+
+@keyframes ani-toast {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

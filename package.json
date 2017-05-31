@@ -1,0 +1,24 @@
+{
+  "name": "toast-for-vue",
+  "version": "1.0.0",
+  "description": "toast used with vue project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzw918/toast-for-vue.git"
+  },
+  "keywords": [
+    "toast",
+    "vue",
+    "plugin"
+  ],
+  "author": "John Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzw918/toast-for-vue/issues"
+  },
+  "homepage": "https://github.com/zzw918/toast-for-vue#readme"
+}

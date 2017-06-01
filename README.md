@@ -10,7 +10,7 @@ install:
 
 or:
 
-> Vue.use(Toast, {
+ Vue.use(Toast, {
 
   defaultType: "top",
   

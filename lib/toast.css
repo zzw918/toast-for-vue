@@ -51,24 +51,26 @@
 .load-box {
     position: fixed;
     z-index: 3;
-    width: 7.6em;
-    min-height: 7.6em;
-    top: 180px;
+    width: 4rem;
+    min-height: 4rem;
     left: 50%;
-    margin-left: -3.8em;
-    background: rgba(0,0,0,0.7);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(81,177,176,0.8);
     text-align: center;
-    border-radius: 5px;
+    border-radius: 0.1389rem;
     color: #FFFFFF;
 }
 .load-content {
-    margin-top: 64%;
-    font-size: 14px;
+    margin-top: 70%;
+    font-size: 0.35rem;
+    color: white;
 }
 .loading{
     position: absolute;
     width: 0px;
     left: 50%;
+    transform: translateX(-50%);
     top: 38%;
 }
 .loading_leaf{
@@ -79,11 +81,11 @@
 .loading_leaf:before {
     content: " ";
     position: absolute;
-    width: 9.14px;
-    height: 3.08px;
-    background: #d1d1d5;
-    box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 1px;
-    border-radius: 1px;
+    width: 0.1869rem;
+    height: 0.0628rem;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 1px;
+    border-radius: 0.0139rem;
     -webkit-transform-origin: left 50% 0px;
     transform-origin: left 50% 0px;
 }

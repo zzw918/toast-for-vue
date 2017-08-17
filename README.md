@@ -1,3 +1,5 @@
+这是配合vue框架使用的toast，方便引入。
+
 install:
 
 >npm install toast-for-vue --save

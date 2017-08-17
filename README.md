@@ -1,4 +1,5 @@
 这是配合vue框架使用的toast，方便引入。
+博客介绍： http://www.cnblogs.com/zhuzhenwei918/p/6925943.html
 
 install:
 
@@ -26,3 +27,4 @@ usage:
 > this.$toast.top("error！");
 
 > this.$toast.bottom("no!");
+
